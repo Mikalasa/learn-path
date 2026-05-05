@@ -1,8 +1,8 @@
-const testCases = require('./1768.Merge Strings Alternately/mergeAlternately.test')
+const testCases = require('./1768.Merge Strings Alternately/test/mergeAlternately.test')
 
 
 const solutions = {
-    v1: require('./1768.Merge Strings Alternately/solution_v1'),
+    v1: require('./1768.Merge Strings Alternately/solutions/solution_v1'),
 }
 
 function runTests() {
