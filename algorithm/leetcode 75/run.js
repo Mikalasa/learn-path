@@ -2,7 +2,7 @@ const testCases = require('./01_1768-Merge Strings Alternately/test/mergeAlterna
 
 
 const solutions = {
-    v1: require('./01_1768-Merge Strings Alternately/solutions/solution_v1'),
+    v1: require('./01_1768-Merge Strings Alternately/solutions/v_01'),
 }
 
 function runTests() {
