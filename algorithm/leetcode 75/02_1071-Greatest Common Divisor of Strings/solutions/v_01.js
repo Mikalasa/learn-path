@@ -58,8 +58,8 @@ const testCases = [
     },
     {
         input: [
-            "TAUXXTAUXXTAUXXTAUXXTAUXX",
-            "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX"
+            "AAAAAB",
+            "AAA"
         ],
         expected: "TAUXX"
     }
