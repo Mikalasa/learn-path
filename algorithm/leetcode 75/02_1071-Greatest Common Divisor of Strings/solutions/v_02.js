@@ -41,6 +41,9 @@ const gcd = function (numberSmall, numberBig) {
     let remain = numberBig % numberSmall
     let common = 0
     let lastDivide = numberSmall
+    if (remain === 0) {
+        return numberSmall
+    }
     while(remain > 0) {
         let tempRemain = lastDivide % remain;
         if(tempRemain === 0) {
@@ -49,5 +52,4 @@ const gcd = function (numberSmall, numberBig) {
         lastDivide = remain
         remain = tempRemain
     }
-
 }
