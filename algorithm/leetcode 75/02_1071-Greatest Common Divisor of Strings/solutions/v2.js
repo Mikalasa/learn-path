@@ -3,7 +3,7 @@
  * @param {string} str2
  * @return {string}
  */
-var gcdOfStrings = function(str1, str2) {
+var gcdOfStrings_v2 = function(str1, str2) {
     let short = ""
     let longer = ""
     let abstract = str1.length - str2.length
@@ -53,3 +53,4 @@ const gcd = function (numberSmall, numberBig) {
         remain = tempRemain
     }
 }
+module.exports = gcdOfStrings_v2
