@@ -10,9 +10,9 @@ var kidsWithCandies = function(candies, extraCandies) {
         let eachEl = candies[i] + extraCandies
         if (eachEl < maxAmount) {
             result.push(false)
-            continue
+        } else {
+            result.push(true)
         }
-        result.push(true)
     }
     return result
 };
