@@ -3,6 +3,9 @@
  * @param {string} str2
  * @return {string}
  */
+/*
+* not pass
+* */
 var gcdOfStrings_v1 = function(str1, str2) {
     let short = ""
     let longer = ""

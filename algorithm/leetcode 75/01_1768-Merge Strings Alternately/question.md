@@ -1,32 +1,50 @@
 # 1768. Merge Strings Alternately
 
-**Difficulty:** Easy
+Official: https://leetcode.com/problems/merge-strings-alternately/description/
 
-## Description
+Difficulty: Easy
 
-You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If a string is longer than the other, append the additional letters onto the end of the merged string.
+## Problem
+
+Given two strings `word1` and `word2`, build a new string by taking characters alternately from `word1` and `word2`, starting with `word1`.
+
+If one string still has remaining characters after the other string is exhausted, append the remaining part to the end.
 
 Return the merged string.
 
----
+## Function
+
+```js
+/**
+ * @param {string} word1
+ * @param {string} word2
+ * @return {string}
+ */
+```
 
 ## Examples
 
-### Example 1
-Input: word1 = "abc", word2 = "pqr"  
+```txt
+Input: word1 = "abc", word2 = "pqr"
 Output: "apbqcr"
+```
 
-### Example 2
-Input: word1 = "ab", word2 = "pqrs"  
+```txt
+Input: word1 = "ab", word2 = "pqrs"
 Output: "apbqrs"
+```
 
-### Example 3
-Input: word1 = "abcd", word2 = "pq"  
+```txt
+Input: word1 = "abcd", word2 = "pq"
 Output: "apbqcd"
-
----
+```
 
 ## Constraints
 
-- 1 <= word1.length, word2.length <= 100
-- word1 and word2 consist of lowercase English letters
+- `1 <= word1.length, word2.length <= 100`
+- `word1` and `word2` contain lowercase English letters.
+
+## Notes
+
+- A simple loop up to the longer string length is enough.
+- Be careful when one string is shorter than the other.
