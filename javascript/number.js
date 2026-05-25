@@ -10,3 +10,9 @@ console.log(xx === yy, xx === .1, yy === .1)
 
 console.log(`"she said 'hi'", he`)
 console.log("we \"ff\"")
+
+let a = 1
+let b = a
+a = 2
+console.log(a)
+console.log(b)
