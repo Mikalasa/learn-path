@@ -14,5 +14,6 @@ console.log("we \"ff\"")
 let a = 1
 let b = a
 a = 2
+//point to different memory address, not change value in same address of 1
 console.log(a)
 console.log(b)
