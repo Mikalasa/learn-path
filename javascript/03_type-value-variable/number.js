@@ -8,9 +8,6 @@ let xx = .3 - .2
 let yy = .2 - .1
 console.log(xx === yy, xx === .1, yy === .1)
 
-console.log(`"she said 'hi'", he`)
-console.log("we \"ff\"")
-
 let a = 1
 let b = a
 a = 2
