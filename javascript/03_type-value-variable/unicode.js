@@ -3,6 +3,7 @@ console.log("caf\u00e9") // café: Unicode
 console.log("caf\u{e9}") // café: Unicode {} -> new syntax from ES6
 console.log("cafe\u{301}") // ASCII
 
+//situation with error if not ; as end of the line
 function test_without_Semicolon() {
     function f(n) {
         return n + 1

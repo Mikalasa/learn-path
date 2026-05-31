@@ -1,6 +1,6 @@
 let x = 0b10101 // 0b 二进制开头
 let y = 0o377 // 0o 八进制开头
-let z = 0xff
+let z = 0xff  // 0x 十六进制
 
 console.log(x, y, z)
 
@@ -18,8 +18,9 @@ console.log(b)
 let aa = 0.3 - 0.2
 let bb = 0.2 - 0.1
 
+//make fractionDigits much bigger, they will be equal
 let cc = aa.toFixed(10)
 let cd = bb.toFixed(10)
 console.log(cc === cd, aa === bb)
 
-let xx = (0.4 - 0.3).toFixed(100)
+let xxx = (0.4 - 0.3).toFixed(100)
