@@ -26,6 +26,6 @@ console.log('\n ====== \n')
 let str2 = `function theF2() {
     const x = 88
     console.log(x)
-}`
-console.log(eval(str2))
+} theF2()`
+eval(str2)
 theF2()  //theF2 already created by eval
